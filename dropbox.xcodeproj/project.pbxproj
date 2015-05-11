@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94285F471B005BDA000E6526 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94285F461B005BDA000E6526 /* SettingsViewController.swift */; };
+		94285F491B006455000E6526 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94285F481B006455000E6526 /* PhotosViewController.swift */; };
+		94285F4B1B006BD4000E6526 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94285F4A1B006BD4000E6526 /* TermsViewController.swift */; };
+		94286CF31AFD795F008C4116 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94286CF21AFD795F008C4116 /* CreateAccountRootViewController.swift */; };
+		94286CF61AFD79BC008C4116 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94286CF51AFD79BC008C4116 /* SignInRootViewController.swift */; };
+		94286CF81AFD79CF008C4116 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94286CF71AFD79CF008C4116 /* CreateAccountViewController.swift */; };
+		94286CFA1AFD79E1008C4116 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94286CF91AFD79E1008C4116 /* SignInViewController.swift */; };
 		944D5BB41AFAF12900648DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D5BB31AFAF12900648DD4 /* AppDelegate.swift */; };
 		944D5BB61AFAF12900648DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D5BB51AFAF12900648DD4 /* ViewController.swift */; };
 		944D5BB91AFAF12900648DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944D5BB71AFAF12900648DD4 /* Main.storyboard */; };
@@ -26,6 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94285F461B005BDA000E6526 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		94285F481B006455000E6526 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		94285F4A1B006BD4000E6526 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		94286CF21AFD795F008C4116 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		94286CF51AFD79BC008C4116 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		94286CF71AFD79CF008C4116 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		94286CF91AFD79E1008C4116 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		944D5BAE1AFAF12900648DD4 /* dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944D5BB21AFAF12900648DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		944D5BB31AFAF12900648DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +70,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94286CF41AFD7988008C4116 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94286CF21AFD795F008C4116 /* CreateAccountRootViewController.swift */,
+				94286CF51AFD79BC008C4116 /* SignInRootViewController.swift */,
+				94286CF71AFD79CF008C4116 /* CreateAccountViewController.swift */,
+				94286CF91AFD79E1008C4116 /* SignInViewController.swift */,
+				94285F461B005BDA000E6526 /* SettingsViewController.swift */,
+				94285F481B006455000E6526 /* PhotosViewController.swift */,
+				94285F4A1B006BD4000E6526 /* TermsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		944D5BA51AFAF12900648DD4 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +105,7 @@
 		944D5BB01AFAF12900648DD4 /* dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				94286CF41AFD7988008C4116 /* View Controllers */,
 				944D5BB31AFAF12900648DD4 /* AppDelegate.swift */,
 				944D5BB51AFAF12900648DD4 /* ViewController.swift */,
 				944D5BB71AFAF12900648DD4 /* Main.storyboard */,
@@ -212,6 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94286CF81AFD79CF008C4116 /* CreateAccountViewController.swift in Sources */,
+				94285F491B006455000E6526 /* PhotosViewController.swift in Sources */,
+				94286CF61AFD79BC008C4116 /* SignInRootViewController.swift in Sources */,
+				94285F471B005BDA000E6526 /* SettingsViewController.swift in Sources */,
+				94285F4B1B006BD4000E6526 /* TermsViewController.swift in Sources */,
+				94286CFA1AFD79E1008C4116 /* SignInViewController.swift in Sources */,
+				94286CF31AFD795F008C4116 /* CreateAccountRootViewController.swift in Sources */,
 				944D5BB61AFAF12900648DD4 /* ViewController.swift in Sources */,
 				944D5BB41AFAF12900648DD4 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +445,7 @@
 				944D5BCF1AFAF12900648DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		944D5BD01AFAF12900648DD4 /* Build configuration list for PBXNativeTarget "dropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +454,7 @@
 				944D5BD21AFAF12900648DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

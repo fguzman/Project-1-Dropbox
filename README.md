@@ -3,8 +3,6 @@
 - Hours: 8
 - Finished: Required elements
 
-![Walkthrough Gif](dropbox-walkthru.gif)
-
 ![Tabber|250](http://i.imgur.com/hubKLQM.gif?1)
 
 
